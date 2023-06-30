@@ -19,6 +19,7 @@ void SetTitle(char* title);
  * 8-灰色, 9-淡蓝色, 10-淡绿色,   11-淡浅绿色   12-淡红色 13-淡紫色 14-淡黄色 15-亮白色
  */
 void SetColor(int, int);
+
 void SetConsoleWindowSize(int width, int height);
 /* 设置光标的x、y坐标-正常坐标轴 */
 void SetPosition(int x, int y);

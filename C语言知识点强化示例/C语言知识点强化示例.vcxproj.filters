@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{e937c5ee-2bf2-4ecd-b4b6-2d1d5698cbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{412813e4-9348-4e6f-9958-9fa7cfc04fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{9e8540da-edf3-40d5-a218-c0dc0c0efdc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C语言知识点强化示例.c">
@@ -20,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="ConsoleLib.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.c">
+      <Filter>源文件\util</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -31,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="ConsoleLib.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>头文件\util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
