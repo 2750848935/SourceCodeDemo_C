@@ -13,7 +13,35 @@ int main()
 {
     //一维数组示例();
     //二维数组示例();
+    //打印游戏地图();
+    //读取用户的键盘输入
+    int input = 0;
     打印游戏地图();
+    while ((input = GetKey()) != '\n') {
+        if (input == 0) continue;
+        system("cls");  //清屏
+        if (input == 38) {  //上键，修改行
+            if (x != 0) {
+                x--;
+            }
+        }
+        if (input == 39) {  //右
+            if (y != 7) {
+                y++;
+            }
+        }
+        if (input == 40) {  //下
+            if (x != 7) {
+                x++;
+            }
+        }
+        if (input == 37) {  //左
+            if (y != 0) {
+                y--;
+            }
+        }
+        打印游戏地图();
+    }
     /*array_init();
     for (int i = 0; i < 11; i++) {
         array_add(i + 1);

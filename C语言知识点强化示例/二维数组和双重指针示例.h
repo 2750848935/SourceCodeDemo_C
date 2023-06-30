@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "ConsoleLib.h"
 
 #define ROW 5
 #define COL 10
@@ -43,12 +44,28 @@ void 二维数组示例()
 	}
 }
 
+int x = 0;		//当前玩家在地图中的行索引
+int y = 0;		//当前玩家在地图中的列索引
 void 打印游戏地图()
 {
+	//1. 设置控制台标题
+	SetTitle("My Game Console Title");
+	//2. 设置控制台窗口颜色
+	SetColor(10, 0);
 	for (int i = 0; i < 8; i++) {
 		for (int j = 0; j < 8; j++) {
+			//if (strcmp(Maps[i][j], "武当山") == 0) {
+			if(i == x && j == y){
+				SetColor(13, 15);
+			}
+			else {
+				SetColor(10, 0);
+			}
 			printf("%-10s", Maps[i][j]);
+			SetColor(10, 0);
 		}
 		printf("\n");
 	}
+
+	//system("pause");
 }
