@@ -7,10 +7,14 @@
 #include <stdlib.h>
 #include <memory.h>
 #include "数组扩容示例.h"
+#include "二维数组和双重指针示例.h"
 
 int main()
 {
-    array_init();
+    //一维数组示例();
+    //二维数组示例();
+    打印游戏地图();
+    /*array_init();
     for (int i = 0; i < 11; i++) {
         array_add(i + 1);
     }
@@ -20,7 +24,7 @@ int main()
         printf("%d\t", array[i]);
     }
     printf("\n");
-    array_release();
+    array_release();*/
 
     // ctrl + shift + /   注释快捷键
     //int nums1[5] = {11, 22, 33, 44, 55};

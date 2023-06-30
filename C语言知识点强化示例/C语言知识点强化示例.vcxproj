@@ -128,9 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleLib.c" />
     <ClCompile Include="C语言知识点强化示例.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConsoleLib.h" />
+    <ClInclude Include="二维数组和双重指针示例.h" />
     <ClInclude Include="数组扩容示例.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

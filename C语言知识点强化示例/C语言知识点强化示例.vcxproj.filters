@@ -18,9 +18,18 @@
     <ClCompile Include="C语言知识点强化示例.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ConsoleLib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="数组扩容示例.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二维数组和双重指针示例.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLib.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
